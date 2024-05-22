@@ -7,7 +7,7 @@ class randomApp extends Component {
     return (
       <div className="App">
         <h1>Random Number</h1>
-        <button>Get Random Number</button>
+        <button onClick={this.handleClick}>Get Random Number</button>
       </div>
     )
   }
