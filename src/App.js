@@ -1,11 +1,15 @@
-import React from "react";
+import React, {Component} from "react";
 
-//TODO: import the data model for your list of filters
+class randomApp extends Component {
+  state = {value: 0};
 
-const App = () => (
-  <div className="App">
+  render () {
+    return (
+      <div className="App">
+        <h1>Random Number</h1>
+        <button>Get Random Number</button>
+      </div>
+    )
+  }
+}
 
-  </div>
-);
-
-export default App;
